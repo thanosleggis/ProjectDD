@@ -1,0 +1,38 @@
+.sync-mode-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.sync-mode-prompt {
+  padding: 14px 16px;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  border: 1px solid #d0d4da;
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sync-mode-text {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.sync-mode-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sync-mode-button {
+  font-size: 0.9rem;
+}
+
+.sync-mode-cancel {
+  background-color: #f9fafb;
+}

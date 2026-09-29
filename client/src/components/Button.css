@@ -1,0 +1,25 @@
+.ui-button {
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #8b8c89; /* secondary color */
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ui-button:hover {
+  background: #f3f3f3;
+  border-color: #8b8c89;
+}
+
+.ui-button:focus {
+  outline: 3px solid rgba(39, 76, 119, 0.25); /* header color with alpha */
+  border-color: #274c77;
+}
